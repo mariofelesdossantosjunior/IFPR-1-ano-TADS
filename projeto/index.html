@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- SEO - Search Engine Optimize -->
+  <meta name="author" content="Douglas Mariano dos Santos">
+  <meta name="description" content="Projeto desenvolvido para a turma do Analise e Desenvolvimento de Sistemas do IFPR - Campus Umuarama">
+  <!-- //SEO - Search Engine Optimize -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portal Web - Informática IFPR Campus Umuarama</title>
+</head>
+
+<body>
+  <!-- barra de navegação -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Projeto WEB</a>
+      <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-label="Menu de Navegação" aria-controls="navbarResponsive" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="sobre.html" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="servicos.html" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="contato.html" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="dropdownPortfolio" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownPortfolio">
+              <a href="portfolio/trabalho1.html" class="dropdown-item">Trabalho 1</a>
+              <a href="portfolio/trabalho2.html" class="dropdown-item">Trabalho 2</a>
+              <a href="portfolio/trabalho3.html" class="dropdown-item">Trabalho 3</a>
+              <a href="portfolio/trabalho4.html" class="dropdown-item">Trabalho 4</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="dropdownBlog" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownBlog">
+              <a href="blog/pagina1.html" class="dropdown-item">Pagina 1</a>
+              <a href="blog/pagina2.html" class="dropdown-item">Pagina 2</a>
+              <a href="blog/pagina3.html" class="dropdown-item">Pagina 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- //barra de navegação -->
+
+  <!-- carrossel de imagens -->
+  <header>
+    <div id="galeriaIndex" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#galeriaIndex" data-slide-to="0" class="active"></li>
+        <li data-target="#galeriaIndex" data-slide-to="1"></li>
+        <li data-target="#galeriaIndex" data-slide-to="2"></li>
+        <li data-target="#galeriaIndex" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- slide 0 -->
+        <div class="carousel-item active" style="background-image: url('imagens/slide/imagem.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Primeira imagem do Slide</h3>
+            <p>Aqui será exibida um texto qualquer</p>
+          </div>
+        </div>
+        <!-- slide 1 -->
+        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Segunda imagem do Slide</h3>
+            <p>Aqui será exibida um texto qualquer</p>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Terceira imagem do Slide</h3>
+            <p>Aqui será exibida um texto qualquer</p>
+          </div>
+        </div>
+        <!-- slide 3 -->
+        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Quarta imagem do Slide</h3>
+            <p>Aqui será exibida um texto qualquer</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#galeriaIndex" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+
+      <a href="#galeriaIndex" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+
+    </div>
+  </header>
+  <!-- carrossel de imagens -->
+
+  <!-- Conteúdo da Página -->
+  <div class="container">
+    <h1 class="my-4">Seja bem vindo ao Portal Web ADS</h1>
+
+
+    <h2><a href="blog.html">Blog</a></h2>
+    <div class="row">
+
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Título</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum veritatis voluptatem, tenetur perspiciatis eligendi esse laudantium fugiat
+              laboriosam ipsam cum, sapiente quis? Eligendi, obcaecati temporibus!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary float-right">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Título</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum veritatis voluptatem, tenetur perspiciatis eligendi esse laudantium fugiat
+              laboriosam ipsam cum, sapiente quis? Eligendi, obcaecati temporibus!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary float-right">Leia mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Título</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum veritatis voluptatem, tenetur perspiciatis eligendi esse laudantium fugiat
+              laboriosam ipsam cum, sapiente quis? Eligendi, obcaecati temporibus!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary float-right">Leia mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fecha o .row -->
+
+    <h2><a href="portfolio.html">Portfolio</a></h2>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#">
+            <img src="http://placehold.it/700x400" alt="Trabalho 1" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Trabalho 1</h4>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#">
+            <img src="http://placehold.it/700x400" alt="Trabalho 1" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Trabalho 2</h4>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#">
+            <img src="http://placehold.it/700x400" alt="Trabalho 1" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Trabalho 3</h4>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#">
+            <img src="http://placehold.it/700x400" alt="Trabalho 1" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Trabalho 4</h4>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cupiditate incidunt
+              recusandae eveniet ipsum</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--fecha o .row -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Portal Web - Recursos</h2>
+        <p>Neste projeto, utilizaremos o Bootstrap com os seguintes recursos:</p>
+        <ul>
+          <li><strong>Bootstrap v4</strong></li>
+          <li>jQuery</li>
+          <li>FontAwesome</li>
+          <li>Formulário de Contato com validações</li>
+          <li>Elementos de fácil customização</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dignissimos consequuntur numquam
+          exercitationem voluptas obcaecati consequatur illum similique corrupti, placeat pariatur eum nam ducimus
+          corporis voluptatibus molestiae maiores doloremque ab?</p>
+
+      </div>
+      <div class="col-lg-6">
+        <img src="http://placehold.it/700x450" alt="" class="img-fluid rounded">
+      </div>
+    </div>
+    <!--fecha o .row -->
+
+    <hr>
+
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero corporis, debitis minus nostrum labore
+          eos maxime totam deleniti tempora officia adipisci, ea fuga obcaecati quidem itaque at. Et, ad!</p>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="btn btn-lg btn-danger btn-block"> Chamar ação qualquer</a>
+      </div>
+    </div>
+
+
+  </div> <!-- fecha o .container -->
+  <!-- //Conteúdo da Página -->
+
+  <!-- Rodapé -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        Copyright &copy; - Portal Web - Informática [Campus Umuarama]
+      </p>
+    </div>
+  </footer>
+  <!-- //Rodapé -->
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

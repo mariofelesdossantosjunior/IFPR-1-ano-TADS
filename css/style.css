@@ -1,0 +1,16 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logotipo {
+    background-color: green;
+    color: white;
+    height: 80px;
+}
+
+.menu {
+    background-color: yellow;
+    color: black;
+    height: 80px;
+}

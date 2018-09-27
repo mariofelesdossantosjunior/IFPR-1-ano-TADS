@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Aprendendo Bootstrap</title>
+  </head>
+  <body>
+
+    <h2>TOOLTIP</h2>
+
+    <div class="container">
+        <a href="#" data-toggle="tooltip" title="Um conteúdo qualquer">
+            Tooltip default
+        </a>
+        <br>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Um conteúdo qualquer">
+            Tooltip bottom
+        </a>
+        <br>
+        <a href="#" data-toggle="tooltip" data-placement="right" title="Um conteúdo qualquer">
+            Tooltip right
+        </a>
+        <br>
+        <a href="#" data-toggle="tooltip" data-placement="left" title="Um conteúdo qualquer">
+            Tooltip left
+        </a>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+  </body>
+</html>

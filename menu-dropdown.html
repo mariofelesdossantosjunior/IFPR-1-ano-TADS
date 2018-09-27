@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Aprendendo Bootstrap</title>
+
+    <style>
+    a.bg-dark:hover {
+        background-color: black !important;
+    }
+
+    .bolsonaro { 
+        float:right;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+        <p>Criando botões agrupados do tipo DropDown</p>
+        <div class="btn-group-vertical bolsonaro">
+            <button class="btn btn-danger">Home</button>
+            <button class="btn btn-danger">Produtos</button>
+            <button class="btn btn-danger">Contato</button>
+            
+            <div class="btn-group dropleft">
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                    Categorias
+                </button>
+                <div class="dropdown-menu bg-danger">
+                    <a href="#" class="dropdown-item bg-danger text-white">Celular</a>
+                    <a href="#" class="dropdown-item bg-danger text-white">Tablet</a>
+                    <a href="#" class="dropdown-item bg-danger text-white">Notebook</a>
+                    <a href="#" class="dropdown-item bg-danger text-white">SmartWatches</a>
+                </div>
+            </div>
+
+            <button class="btn btn-danger">Outra Opção</button>
+
+        </div>
+        
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Aprendendo Bootstrap</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <h2>Exemplo de Modal</h2>
+
+        <button class="btn btn-primary" data-toggle="modal" data-target="#meuModal">
+            Abrir Modal
+        </button>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="meuModal" data-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <!-- header -->
+                <div class="modal-header">
+                    <h4>Cabeçalho do Modal</h4>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- //header -->
+
+                <!-- corpo -->
+                <div class="modal-body">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam animi suscipit quo? Minus dolorem explicabo optio dolore ab, facilis, nemo nesciunt quam perspiciatis perferendis maxime animi rem incidunt hic laborum!
+                    </p>
+                </div>
+                <!-- //corpo -->
+
+                <!-- rodape -->
+                <div class="modal-footer">
+                    <button class="btn btn-success">Enviar</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+                <!-- //rodape -->
+            </div>
+        </div>
+    </div>
+    <!-- //modal -->
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

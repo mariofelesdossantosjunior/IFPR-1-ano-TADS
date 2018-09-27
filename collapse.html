@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Aprendendo Bootstrap</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#exemplo">Exibir</button>
+
+        <div id="exemplo" class="collapse">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti adipisci, eum, exercitationem doloribus tempore ullam sed quo aliquid labore nam nemo quae eligendi consequuntur sapiente quisquam quas ratione quaerat. Voluptas.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="accordion">
+            <!-- card -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#itemA" class="card-link" data-toggle="collapse">
+                        Dados do Item A
+                    </a>
+                </div>
+                <div id="itemA" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus totam, temporibus quisquam nihil quaerat vero tenetur voluptas dolorem dignissimos suscipit corporis tempora. Eaque beatae fuga incidunt architecto earum culpa reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //card -->
+
+            <!-- card -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#itemB" class="card-link" data-toggle="collapse">
+                        Dados do Item B
+                    </a>
+                </div>
+                <div id="itemB" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus totam, temporibus quisquam nihil quaerat vero tenetur voluptas dolorem dignissimos suscipit corporis tempora. Eaque beatae fuga incidunt architecto earum culpa reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //card -->
+
+            <!-- card -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#itemC" class="card-link" data-toggle="collapse">
+                        Dados do Item C
+                    </a>
+                </div>
+                <div id="itemC" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus totam, temporibus quisquam nihil quaerat vero tenetur voluptas dolorem dignissimos suscipit corporis tempora. Eaque beatae fuga incidunt architecto earum culpa reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //card -->                
+
+        </div>
+
+        
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
